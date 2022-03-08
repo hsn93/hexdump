@@ -12,8 +12,11 @@ int main(int argc, char *argv[])
 {
   const char hello[] = "Hello World !";
   char *mem = malloc(512);
-  strcpy(mem + 10, hello);
-  hex_dump_highlight(mem, 512, 10, sizeof(hello));
+  if (NULL != mem){
+    strcpy(mem + 10, hello);
+    hex_dump_highlight(mem, 512, 10, sizeof(hello));
+    free(mem);
+  }
 }
 ```
 
