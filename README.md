@@ -21,4 +21,4 @@ int main(int argc, char *argv[])
 # pictures
 ![Image](pic/hexdump.jpg "hd")
 
-![Image](pic/hexdump.jpg "hd_highlight")
+![Image](pic/hexdump_highlight.jpg "hd_highlight")
