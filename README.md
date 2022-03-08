@@ -21,7 +21,8 @@ int main(int argc, char *argv[])
 ```
 
 
-# pictures
+## Hex dump of memory
 ![Image](pic/hexdump.jpg "hd")
 
+## Hex dump with highlight functionality
 ![Image](pic/hexdump_highlight.jpg "hd_highlight")
