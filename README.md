@@ -4,6 +4,10 @@ printf utility i use to debug memory related c softwares.
 
 this utility uses [escape sequence](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors) for coloring, use it with modern terminal.
 
+# to do:
+- make highlight tokens (highlight specific data)
+- print ascii section option
+
 # quick start
 code usage:
 ```c
